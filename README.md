@@ -59,7 +59,7 @@ bigmart-sales-prediction/
 
 1. **Clone the repo**  
 ```bash
-git clone https://github.com/your-username/bigmart-sales-prediction.git
+git clone https://github.com/HARIHARANS24/bigmart-sales-prediction.git
 cd bigmart-sales-prediction
 ```
 
@@ -91,6 +91,3 @@ Feel free to fork this project and submit PRs! Feedback is welcome.
 
 ---
 
-## 📄 License
-
-MIT License
