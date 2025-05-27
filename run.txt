@@ -1,0 +1,21 @@
+# Activate virtual environment (Windows PowerShell or CMD)
+.\venv\Scripts\Activate.ps1
+
+# Run your CLI app
+python -m app.cli train
+
+
+
+# Activate virtual environment (again if needed)
+.\venv\Scripts\Activate.ps1
+
+# Run Flask app using module syntax
+python -m app.api
+
+
+
+# Activate virtual environment (again if needed)
+.\venv\Scripts\Activate.ps1
+
+# Run Streamlit app
+streamlit run app/streamlit_app.py

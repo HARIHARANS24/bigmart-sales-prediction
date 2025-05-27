@@ -1,0 +1,14 @@
+data:
+  train_path: data/train.csv
+  test_path: data/test.csv
+  target: Item_Outlet_Sales
+
+model:
+  random_forest:
+    n_estimators: 150
+    max_depth: 15
+    random_state: 42
+
+logging:
+  level: INFO
+  file: logs/app.log

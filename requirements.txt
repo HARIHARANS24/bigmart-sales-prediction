@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+joblib
+flask
+click
+pyyaml
+streamlit
+matplotlib
+seaborn
+requests
+pytest
