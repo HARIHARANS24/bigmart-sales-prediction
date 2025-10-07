@@ -5,7 +5,7 @@
 ---
 
 ## 🗂️ Project Structure
-
+ 
 ```
 bigmart-sales-prediction/
 ├── app/                        # Main application package
