@@ -4,7 +4,7 @@
 
 ---
 
-## 🗂️ Project Structure
+## 🗂️ Project Structure 
  
 ```
 bigmart-sales-prediction/
