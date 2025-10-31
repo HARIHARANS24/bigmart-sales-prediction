@@ -7,7 +7,7 @@
 ## 🗂️ Project Structure 
  
 ``` 
-bigmart-sales-prediction/
+bigmart-sales-prediction/ 
 ├── app/                        # Main application package 
 │   ├── __init__.py            # Package initialization
 │   ├── cli.py                 # Command-line interface commands  
