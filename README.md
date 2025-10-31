@@ -6,7 +6,7 @@
 
 ## 🗂️ Project Structure 
  
-```
+``` 
 bigmart-sales-prediction/
 ├── app/                        # Main application package
 │   ├── __init__.py            # Package initialization
