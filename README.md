@@ -9,7 +9,7 @@
 ``` 
 bigmart-sales-prediction/ 
 ├── app/                        # Main application package    
-│   ├── __init__.py            # Package initialization 
+│   ├── __init__.py            # Package initialization  
 │   ├── cli.py                 # Command-line interface commands   
 │   ├── api.py                 # Flask REST API implementation
 │   ├── streamlit_app.py       # Streamlit web interface
