@@ -7,38 +7,40 @@
 ## 🗂️ Project Structure 
  
 ``` 
-bigmart-sales-prediction/ 
-├── app/                        # Main application package    
-│   ├── __init__.py            # Package initialization  
-│   ├── cli.py                 # Command-line interface commands   
-│   ├── api.py                 # Flask REST API implementation
-│   ├── streamlit_app.py       # Streamlit web interface
-│   ├── model.py               # ML model training and prediction
-│   ├── preprocessing.py       # Data preprocessing pipeline
-│   ├── visualization.py       # Data visualization utilities
-│   ├── utils.py               # Helper functions
-│   ├── logger.py              # Logging configuration
-│   └── __pycache__/          # Python bytecode cache
-├── data/                      # Data directory
-│   ├── train.csv             # Training dataset
-│   └── test.csv              # Test dataset
-├── models/                    # Trained models and artifacts
-│   ├── model_v1.pkl          # Serialized model
-│   ├── model_v1_metrics.json # Model performance metrics
-│   ├── feature_columns.pkl   # Saved feature columns
-│   └── label_encoders.pkl    # Categorical encoders
-├── notebooks/                 # Jupyter notebooks
-│   ├── BigMart_EDA.ipynb     # Exploratory data analysis
-│   └── Model_Training.ipynb  # Model development notebook
-├── tests/                    # Unit tests
-│   ├── test_preprocessing.py # Preprocessing tests
-│   └── test_utils.py        # Utility function tests
-├── config.yaml               # Configuration parameters
-├── requirements.txt          # Python dependencies
-├── Dockerfile               # Main application container
-├── Dockerfile.streamlit     # Streamlit UI container
-├── docker-compose.yml       # Multi-container setup
-└── README.md                # Project documentation
+Directory structure:
+└── hariharans24-bigmart-sales-prediction/
+    ├── README.md
+    ├── config.yaml
+    ├── docker-compose.yml
+    ├── Dockerfile
+    ├── Dockerfile.streamlit
+    ├── LICENSE
+    ├── requirements.txt
+    ├── run.txt
+    ├── app/
+    │   ├── __init__.py
+    │   ├── api.py
+    │   ├── cli.py
+    │   ├── logger.py
+    │   ├── model.py
+    │   ├── preprocessing.py
+    │   ├── streamlit_app.py
+    │   ├── utils.py
+    │   └── visualization.py
+    ├── data/
+    │   ├── test.csv
+    │   └── train.csv
+    ├── models/
+    │   ├── feature_columns.pkl
+    │   ├── label_encoders.pkl
+    │   ├── model_v1.pkl
+    │   └── model_v1_metrics.json
+    ├── notebooks/
+    │   ├── BigMart_EDA.ipynb
+    │   └── Model_Training.ipynb
+    └── tests/
+        ├── test_preprocessing.py
+        └── test_utils.py
 ```
 
 ---
